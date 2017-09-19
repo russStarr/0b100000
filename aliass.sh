@@ -14,4 +14,4 @@ alias cern='curl -s "http://download.finance.yahoo.com/d/quotes.csv?s=cern&f=l1c
 # exit code = 0 means it contains PHI
 # exit code = 1 means no PHI
 # feature request answered: now case sensitive!
-alias detect_phi='grep -i ph $1 > /dev/null'
+alias detect_phi='grep -i phi $1 > /dev/null'
